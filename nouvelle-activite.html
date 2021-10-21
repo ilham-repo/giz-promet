@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nouvelle activité - PROMET Suivi & Évaluation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Outile de suivi-évaluation du projet PROMET" />
+
+    <!-- Favicon icon -->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- fontawesome icon -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/css/fontawesome-all.min.css">
+    <!-- animation css -->
+    <link rel="stylesheet" href="assets/plugins/animation/css/animate.min.css">
+    <!-- morris css -->
+    <link rel="stylesheet" href="assets/plugins/chart-morris/css/morris.css">
+    <!-- vendor css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <!-- [ Pre-loader ] start -->
+    <div class="loader-bg">
+        <div class="loader-track">
+            <div class="loader-fill"></div>
+        </div>
+    </div>
+    <!-- [ Pre-loader ] End -->
+
+    <!-- [ navigation menu ] start -->
+	<nav class="pcoded-navbar">
+        <div class="navbar-wrapper">
+            <div class="navbar-brand header-logo">
+                <a href="accueil-conseiller.html" class="b-brand">
+                    <img src="assets/images/logo.png" />
+                </a>
+                <a class="mobile-menu" id="mobile-collapse" href="javascript:"><span></span></a>
+            </div>
+            <div class="navbar-content scroll-div">
+                <ul class="nav pcoded-inner-navbar">
+                    <li class="nav-item pcoded-menu-caption">
+                        <label>Outil de suivi-évaluation</label>
+                    </li>
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item">
+                        <a href="accueil-conseiller.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Tableau de bord</span></a>
+                    </li>
+					<li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item active">
+                        <a href="liste-activites.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-list"></i></span><span class="pcoded-mtext">Activités</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- [ navigation menu ] end -->
+
+    <!-- [ Header ] start -->
+    <header class="navbar pcoded-header navbar-expand-lg navbar-light">
+        <div class="m-header">
+            <a class="mobile-menu" id="mobile-collapse1" href="javascript:"><span></span></a>
+            <a href="index.html" class="b-brand">
+                   <img src="assets/images/logo.png" />
+               </a>
+        </div>
+        <a class="mobile-menu" id="mobile-header" href="javascript:">
+            <i class="feather icon-more-horizontal"></i>
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li><a href="javascript:" class="full-screen" onclick="javascript:toggleFullScreen()"><i class="feather icon-maximize"></i></a></li>
+                <li class="nav-item">Espace conseiller thématique</li>
+                
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="javascript:" data-toggle="dropdown"><i class="icon feather icon-bell"></i></a>
+                        <div class="dropdown-menu dropdown-menu-right notification">
+                            <div class="noti-head">
+                                <h6 class="d-inline-block m-b-0">Notifications</h6>
+                            </div>
+                            <ul class="noti-body">
+                                <li class="notification">
+                                    <div class="media">
+                                        <div class="media-body">
+                                            <p>Activité validée.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <div class="noti-footer">
+                                <a href="javascript:">Afficher tout</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown drp-user">
+                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="icon feather icon-settings"></i>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right profile-notification">
+                            <div class="pro-head">
+                                <i class="fas fa-user"></i> 
+                                <span>Conseiller 1</span>
+                            </div>
+                            <ul class="pro-body">
+                                <li><a href="javascript:" class="dropdown-item"><i class="feather icon-user"></i> Mon profil</a></li>
+                                <li><a href="connexion.html" class="dropdown-item"><i class="feather icon-log-out"></i> Déconnexion</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <!-- [ Header ] end -->
+
+    <!-- [ Main Content ] start -->
+    <div class="pcoded-main-container">
+        <div class="pcoded-wrapper">
+            <div class="pcoded-content">
+                <div class="pcoded-inner-content">
+                    <!-- [ breadcrumb ] start -->
+                    <div class="page-header">
+                        <div class="page-block">
+                            <div class="row align-items-center">
+                                <div class="col-md-12">
+                                    <div class="page-header-title">
+                                        <h5 class="m-b-10">Nouvelle activité</h5>
+                                    </div>
+                                    <ul class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="accueil-conseiller.html"><i class="feather icon-home"></i></a></li>
+                                        <li class="breadcrumb-item"><a href="liste-activites.html">Activités</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:">Nouvelle activité</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- [ breadcrumb ] end -->
+                    <div class="main-body">
+                        <div class="page-wrapper">
+                            <!-- [ Main Content ] start -->
+							<div class="row">
+                                <div class="col-sm-12">
+								
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>1. Informations sur l'activité</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <label>Nom de l'activité</label>
+                                                            <input type="text" class="form-control" placeholder="">
+                                                        </div>
+														<div class="form-group">
+                                                            <label for="exampleFormControlSelect1">Activités principales réalisées</label>
+                                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                                <option>- Sélectionner une activité -</option>
+                                                                <option>Activité 1</option>
+                                                                <option>Activité 2</option>
+                                                                <option>Activité 3</option>
+                                                                <option>Activité 4</option>
+                                                            </select>
+                                                        </div>
+														<div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">Résultats majeurs de l’activité</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                                        </div>
+														<h5>Etat du Jalon</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-radio">
+																<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+																<label class="custom-control-label" for="customRadio1">1/5, Indicateur atteint à 20 %</label>
+															</div>
+															<div class="custom-control custom-radio">
+																<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+																<label class="custom-control-label" for="customRadio2">2/5, Indicateur atteint à 40 %</label>
+															</div>
+															<div class="custom-control custom-radio">
+																<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+																<label class="custom-control-label" for="customRadio3">3/5, Indicateur atteint à 60 %</label>
+															</div>
+															<div class="custom-control custom-radio">
+																<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+																<label class="custom-control-label" for="customRadio4">4/5, Indicateur atteint à 80 %</label>
+															</div>
+															<div class="custom-control custom-radio">
+																<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input">
+																<label class="custom-control-label" for="customRadio5">5/5, Indicateur atteint à 100 %</label>
+															</div>
+														</div>
+														<h5>Sources de vérification pour l'activité</h5>
+														<hr>
+														<div class="form-group">
+                                                            <label>Lien vers les sources de vérification</label>
+                                                            <input type="text" class="form-control" placeholder="">
+                                                        </div>
+														<div class="form-group">
+                                                            <label>Télécharger les sources de vérification</label>
+                                                            <input type="file" class="form-control" placeholder="">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									
+									<div class="card">
+                                        <div class="card-header">
+                                            <h5>2. Contribution à la thématique "Thématique 1"</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form>
+														<div class="form-group">
+                                                            <label for="exampleFormControlTextarea1">Contribution qualitative</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="3"></textarea>
+                                                        </div>
+														<div class="form-group">
+                                                            <label>Contribution quantitative</label>
+                                                            <input type="number" class="form-control" placeholder="">
+                                                        </div>
+														<h5>Résultats non planifiés contribuant à la thématique</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline1">Oui</label>
+															</div>
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline2">Non</label>
+															</div>
+														</div>
+														<div class="form-group">
+                                                            <textarea class="form-control" id="exampleFormControlTextarea3" rows="3"></textarea>
+                                                        </div>
+														<h5>Avez-vous identifié un profil pouvant faire l'objet d'une success story ?</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline1" name="customRadioInline3" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline3">Oui</label>
+															</div>
+															<div class="custom-control custom-radio custom-control-inline">
+																<input type="radio" id="customRadioInline2" name="customRadioInline4" class="custom-control-input">
+																<label class="custom-control-label" for="customRadioInline4">Non</label>
+															</div>
+														</div>
+														<h5>Contribution à l'approche genre</h5>
+														<hr>
+														<div class="form-group">
+                                                            <label for="exampleFormControlTextarea4">Description de l'intégration du genre dans l'activité ou les approches déployées</label>
+                                                            <textarea class="form-control" id="exampleFormControlTextarea4" rows="3"></textarea>
+                                                        </div>
+														<div class="form-group">
+                                                            <label>Personnes accompagnées: % Hommes</label>
+                                                            <input type="number" class="form-control" placeholder="">
+                                                        </div>
+														<div class="form-group">
+                                                            <label>Personnes accompagnées: % Femmes</label>
+                                                            <input type="number" class="form-control" placeholder="">
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>3. Contribution aux indicateurs</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <form action="activite-indicateur.html" method="get">
+														<h5>Indicateurs d'objectif du module</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck1">
+																<label class="custom-control-label" for="customCheck1">1. Le classement du Maroc dans le rapport Doing Business s’est amélioré d’une place.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck2">
+																<label class="custom-control-label" for="customCheck2">2. 75 % des 5 000 des propriétaires de TPME , auto-entrepreneur(e)s et de start-ups, dont 25 % sont des femmes, confirment, sur la base de 2 exemples issus de catégories spécifiques, les avantages de l’amélioration des services de soutien pour leurs entreprises.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck3">
+																<label class="custom-control-label" for="customCheck3">3. 5 approches de soutien testées dans les régions pilotes ont été intégrées dans le dispositif national de soutien pour les TPME, des auto-entrepreneur(e)s et les start-ups (Small Business Act).</label>
+															</div>
+														</div>														
+														<h5>Indicateurs d'extrant</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck4">
+																<label class="custom-control-label" for="customCheck4">1.1. 5 mesures de réforme visant à améliorer les conditions cadres pour les TPME, les auto-entrepreneur(e)s et les start-ups ont été mises en œuvre par le gouvernement marocain.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck5">
+																<label class="custom-control-label" for="customCheck5">1.2. 2 recommandations des groupes de travail sur la mise en œuvre de la Stratégie Nationale d’Inclusion Financière (SNIF) ont été mises en œuvre.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck6">
+																<label class="custom-control-label" for="customCheck6">2.1. 4 offres de soutien comprenant des services non-financiers et financiers en faveur des TPME, des auto-entrepreneur(e)s, des start-ups et des femmes entrepreneures sont concertées entre les acteurs publics concernés.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck7">
+																<label class="custom-control-label" for="customCheck7">2.2. 2 réseaux d’investisseur·euse·s en capital-risque (investisseur·euse·s providentiel·le·s, Business Angels) répondent aux critères de qualité définis par la CCG.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck8">
+																<label class="custom-control-label" for="customCheck8">3.1. Les responsabilités des structures régionales de contact et d’appui pour la création et l’accompagnement des TPME, des auto-entrepreneur(e)s et des start-ups sont définies dans un accord adopté par les acteurs concernés dans chaque région.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck9">
+																<label class="custom-control-label" for="customCheck9">3.2. Dans deux régions, les TPME, auto-entrepreneur(e)s et start-ups ont accès à une offre régionale de services non-financiers et financiers.</label>
+															</div>
+														</div>
+														<h5>Indicateurs &laquo;Effets de l'emploi&raquo;</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck10">
+																<label class="custom-control-label" for="customCheck10">Nombre de personnes ayant trouvé un emploi selon la definition simple.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck11">
+																<label class="custom-control-label" for="customCheck11">Nombre de personnes ayant trouvé un emploi selon la définition simple + durée d'au moins 20h/semaine durant au moins 26 semaines.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck12">
+																<label class="custom-control-label" for="customCheck12">Nombre de personnes ayant trouvé un emploi selon la definition "decent work".</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck13">
+																<label class="custom-control-label" for="customCheck13">Nombre de personnes qui ont bénéficie de meilleures conditions de travail.</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck14">
+																<label class="custom-control-label" for="customCheck14">Nombre de personnes ayant beneficié d'une augmentation du revenu.</label>
+															</div>
+														</div>
+														<h5>Indicateurs &laquo;Partenariat des réformes&raquo;</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck15">
+																<label class="custom-control-label" for="customCheck15">Nombre de TPME ayant eu recours aux services financiers</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck16">
+																<label class="custom-control-label" for="customCheck16">Le chiffre d’affaires des TPME soutenues par la CD a progressé de 20 % sur une période de 3 ans</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck17">
+																<label class="custom-control-label" for="customCheck17">Nombre d'emplois sécurisés parmi les TPME / créateur·rice·s d’entreprise soutenu·e·s par la CD</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck18">
+																<label class="custom-control-label" for="customCheck18">Nombre d'emplois créés parmi les TPME / créateur·rice·s d’entreprise soutenu·e·s par la CD</label>
+															</div>
+														</div>
+														<h5>Indicateurs agrégés de la GIZ</h5>
+														<hr>
+														<div class="form-group">
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck19">
+																<label class="custom-control-label" for="customCheck19">Nombre de très petites, petites et moyennes entreprises (TPME), auto-entrepreneurs créateurs/créatrices d’entreprises accompagnés</label>
+															</div>
+															<div class="custom-control custom-checkbox">
+																<input type="checkbox" class="custom-control-input" id="customCheck20">
+																<label class="custom-control-label" for="customCheck20">Nombre d’auto-entrepreneurs formalisés atteint.</label>
+															</div>
+														</div>
+                                                        <button type="submit" class="btn btn-primary float-right">Enregistrer et poursuivre vers les indicateurs</button>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+									
+                                </div>
+                            </div>
+                            <!-- [ Main Content ] end -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- [ Main Content ] end -->
+
+    <!-- Warning Section Starts -->
+    <!-- Older IE warning message -->
+    <!--[if lt IE 11]>
+        <div class="ie-warning">
+            <h1>Warning!!</h1>
+            <p>You are using an outdated version of Internet Explorer, please upgrade
+               <br/>to any of the following web browsers to access this website.
+            </p>
+            <div class="iew-container">
+                <ul class="iew-download">
+                    <li>
+                        <a href="http://www.google.com/chrome/">
+                            <img src="assets/images/browser/chrome.png" alt="Chrome">
+                            <div>Chrome</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.mozilla.org/en-US/firefox/new/">
+                            <img src="assets/images/browser/firefox.png" alt="Firefox">
+                            <div>Firefox</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.opera.com">
+                            <img src="assets/images/browser/opera.png" alt="Opera">
+                            <div>Opera</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.apple.com/safari/">
+                            <img src="assets/images/browser/safari.png" alt="Safari">
+                            <div>Safari</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                            <img src="assets/images/browser/ie.png" alt="">
+                            <div>IE (11 & above)</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <p>Sorry for the inconvenience!</p>
+        </div>
+    <![endif]-->
+    <!-- Warning Section Ends -->
+
+    <!-- Required Js -->
+<script src="assets/js/vendor-all.min.js"></script>
+	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/pcoded.min.js"></script>
+
+
+    <!-- chart-morris Js -->
+    <script src="assets/plugins/chart-morris/js/raphael.min.js"></script>
+    <script src="assets/plugins/chart-morris/js/morris.min.js"></script>
+    <script src="assets/js/pages/chart-morris-custom.js"></script>
+
+</body>
+</html>
